@@ -1,0 +1,32 @@
+{
+  "name": "elements-kaskadi-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kaskadi-template.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaskadi/elements-kaskadi-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaskadi/elements-kaskadi-template/issues"
+  },
+  "homepage": "https://github.com/kaskadi/elements-kaskadi-template#readme",
+  "kaskadi": {
+    "s3-push": {
+      "files": [{
+        "src": "kaskadi-template.js",
+        "dest": "modules/@kaskadi/kaskadi-template/{branch}kaskadi-template.js"
+      }]
+    }
+  }
+}
