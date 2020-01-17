@@ -5,12 +5,15 @@ class KaskadiTemplate extends LitElement {
     return html`
     <style>
       #main-container {
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
         padding: 10px;
         background: linear-gradient(rgba(93, 189, 58, 0.2), rgba(93, 189, 58, 0.8))
+      }
+      h1 {
+        text-align: center;
       }
       li strong em {
         color: #EA7C13;
