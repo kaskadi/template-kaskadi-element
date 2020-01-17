@@ -20,7 +20,7 @@ class KaskadiTemplate extends LitElement {
       }
     </style>
     <div id="main-container">
-      <h1>Welcome in kaskadi-template element</h1>
+      <h1>Welcome in kaskadi-template element!</h1>
       <section>
         <p>This element is a custom element that provides you the basic file/folder structure you need to extend upon and develop the custom element you need.</p>
         <p>This includes the following:
