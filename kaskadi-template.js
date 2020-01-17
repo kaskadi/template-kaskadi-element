@@ -9,7 +9,7 @@ class KaskadiTemplate extends LitElement {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        padding: 10px;
+        padding: 0 10px;
         background: linear-gradient(rgba(93, 189, 58, 0.2), rgba(93, 189, 58, 0.8))
       }
       h1 {
