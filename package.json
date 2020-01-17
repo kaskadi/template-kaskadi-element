@@ -26,6 +26,9 @@
       "files": [{
         "src": "kaskadi-template.js",
         "dest": "modules/@kaskadi/kaskadi-template/{branch}kaskadi-template.js"
+      }, {
+        "src": "example/index.html",
+        "dest": "modules/@kaskadi/kaskadi-template/{branch}example/index.html"
       }]
     }
   }

@@ -1,5 +1,4 @@
-name: kaskadi-element-CD
-
+name: publish-element
 on:
   push:
     branches:
@@ -7,12 +6,9 @@ on:
       - release/**
     paths:
       - '**.js'
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
     - name: Upload files to S3 bucket
