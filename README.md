@@ -1,16 +1,8 @@
 # Component setup
 
 Those are the steps that have to be performed before starting to work with this component:
-<ul style="list-style: none;">
-  <li style="display:flex;">
-    <input type="checkbox">
-    <label style="margin-left: 5px;"><strong>set secrets up</strong> for the repository you are working on (allows Continuous Deployment tools to work)</label>
-  </li>
-  <li style="display:flex;">
-    <input type="checkbox">
-    <label style="margin-left: 5px;"><strong>set test framework up</strong>. Uses `Karma` as framework</label>
-  </li>
-</ul>
+- **set secrets up** for the repository you are working on (allows Continuous Deployment tools to work)
+- **set test framework up**. Uses `Karma` as framework
 
 _Note_: to know how to perform each individual step, please have a look below!
 
