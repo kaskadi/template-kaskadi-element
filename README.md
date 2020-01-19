@@ -13,9 +13,7 @@
 Before pushing for the first time, please setup secrets on this repository.
 
 **To do so:**
-- go to your repository web page on [GitHub](../../settings/secrets)
-- click on _Settings_ on the right side of your repository navigation bar
-- click on _Secrets_ in the left side menu
+- go to your [repositorys secrets setting](../../settings/secrets)
 - click on _Add a new secret_ for each secret you want to add
 
 **What secrets need to be set:**
