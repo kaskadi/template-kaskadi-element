@@ -7,6 +7,7 @@
 - `npm i`
 - `npm run kaskadi-init` (renames everything according to your repository name)
 
+**Attention** make sure to have `kaskadi-cli` installed globally (`npm i -g kaskadi-cli`)
 
 ## set secrets up
 
