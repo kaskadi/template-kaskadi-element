@@ -9,6 +9,9 @@ class KaskadiTemplate extends LitElement {
 
   static get styles () {
     return css`
+      :host{
+        display: inline-block;
+      }
       div{color: red}
     `
   }
