@@ -3,7 +3,7 @@
 - create a new repository and choose this as the template
 - clone the new repository to a local working copy
 - delete items from this list when you are done with the task
-- set up secrets [help](set secrets up)
+- set up secrets [help](#set-secrets-up)
 - `npm i`
 - rename kaskadi-template.js
 - files that needs to be changed to fit the new name: `package.json`, `template.test.js`, `example.html`
