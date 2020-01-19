@@ -9,7 +9,7 @@
   },
   "scripts": {
     "example": "xdg-open localhost:1234/example && serve -l 1234",
-    "test": "karma start --single-run --browsers ChromeHeadless karma.conf.js"
+    "test": "standard --fix && karma start --single-run --browsers ChromeHeadless karma.conf.js"
   },
   "repository": {
     "type": "git",
