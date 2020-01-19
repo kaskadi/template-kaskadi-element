@@ -1,4 +1,4 @@
-name: publish-element
+name: publish
 on:
   push:
     branches:
