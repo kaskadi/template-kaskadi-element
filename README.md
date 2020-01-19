@@ -1,12 +1,18 @@
-# Component setup
+# Creating a new Element
 
-Those are the steps that have to be performed before starting to work with this component:
-- **set secrets up** for the repository you are working on (allows Continuous Deployment tools to work)
-- **set test framework up**. Uses `Karma` as framework
+- create a new repository and choose this as the template
+- clone the new repository to a local working copy
+- delete items from this list when you are done with the task
+- set up secrets [help](set secrets up)
+- `npm i`
+- rename kaskadi-template.js
+- files that needs to be changed to fit the new name: `package.json`, `template.test.js`, `example.html`
+- write test first
+- make sure test passes
+- push
 
-_Note_: to know how to perform each individual step, please have a look below!
 
-## **How to:** set up secrets for the repository
+## set secrets up
 
 Before pushing for the first time, please setup secrets on this repository.
 
@@ -21,11 +27,3 @@ Before pushing for the first time, please setup secrets on this repository.
 - `AWS_KEY_SECRET`
 
 For the associated values, those are the credentials of the `kaskadi-public-push` user.
-
-## **How to:** set up test framework for this component
-
-**Reference:** [Karma test framework setup documentation](https://github.com/kaskadi/docs-and-discussions/blob/master/karma-test/README.md)
-
-# Component documentation
-
-**Reference:** [Example page](https://cdn.klimapartner.net/modules/@kaskadi/kaskadi-template/example/index.html)
