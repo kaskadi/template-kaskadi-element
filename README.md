@@ -5,11 +5,7 @@
 - delete items from this list when you are done with the task
 - set up secrets ([help](#set-secrets-up))
 - `npm i`
-- rename kaskadi-template.js
-- files that needs to be changed to fit the new name: `package.json`, `template.test.js`, `example.html`
-- write test first
-- make sure test passes
-- push
+- `npm run kaskadi-init` (renames everything according to your repository name)
 
 
 ## set secrets up
