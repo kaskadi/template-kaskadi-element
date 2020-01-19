@@ -1,8 +1,8 @@
 /* eslint-env browser, mocha */
 import '../kaskadi-template.js'
 describe('kaskadi-template', () => {
-  it('should render the string "template"', async () => {
-    // create template
+  it('should render the string "Hello World"', async () => {
+    // create kaskadi-template element
     var elem = document.createElement('kaskadi-template')
     document.body.appendChild(elem)
     // wait until it's finished rendering
