@@ -16,6 +16,6 @@ jobs:
       run: |
         git config --global user.name 'Holger Will'
         git config --global user.email 'h.will@klimapartner.de'
-        git add *
-        git commit -m "Initial commit"
+        git add *.js
+        git commit -am "Initial commit"
         git push
