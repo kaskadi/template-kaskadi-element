@@ -11,4 +11,4 @@ jobs:
     - name: Step 1
       run: echo "New repo created"
     - name: Step 2
-      run: npm i -g kaskadi-cli
+      run: npm i kaskadi-cli
