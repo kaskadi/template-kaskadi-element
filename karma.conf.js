@@ -5,7 +5,7 @@ module.exports = config => {
     preprocessors: { '*.js': 'coverage' },
     coverageReporter: {
       dir: 'coverage',
-      reporters: [{ type: 'text' }, { type: 'lcovonly' }],
+      reporters: [{ type: 'text' }, { type: 'lcovonly', subdir: './' }, { type: 'html', subdir: './html' }],
       instrumenterOptions: {
         istanbul: { esModules: true }
       }
