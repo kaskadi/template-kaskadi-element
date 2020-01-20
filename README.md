@@ -26,5 +26,7 @@ Before pushing for the first time, please setup secrets on this repository.
 **What secrets need to be set:**
 - `AWS_KEY_ID`
 - `AWS_KEY_SECRET`
+- `REPORTER_ID`
 
-For the associated values, those are the credentials of the `kaskadi-public-push` user.
+For `AWS_KEY_ID` & `AWS_KEY_SECRET` those are the credentials of the `kaskadi-public-push` user.
+For `REPORTER_ID`: this is the ID of the reporter associated with this repository on _CodeClimate_
