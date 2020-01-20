@@ -1,5 +1,5 @@
-https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/testing?label=tests
-https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/publish?label=pub
+![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/testing?label=tests)
+![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/publish?label=pub)
 
 # Creating a new Element
 
