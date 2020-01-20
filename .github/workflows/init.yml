@@ -13,4 +13,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: new repo created
+    - run: echo "New repo created"
+    - run: npm i -g kaskadi-cli
