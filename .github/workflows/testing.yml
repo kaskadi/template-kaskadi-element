@@ -1,6 +1,9 @@
 name: testing
 on:
   push:
+    branches:
+      - '!master'
+      - '!release/**'
     paths:
       - '**.js'
 jobs:
@@ -13,6 +16,6 @@ jobs:
       run: npm i
     - uses: paambaati/codeclimate-action@v2.4.0
       env:
-        CC_TEST_REPORTER_ID: 7b14f1f9497bb8e48bbd7efbe19c985f33ddc452ac0a5931699136a43494c6ee
+        CC_TEST_REPORTER_ID: ${{ secrets.REPORTER_ID }}
       with:
         coverageCommand: npm test
