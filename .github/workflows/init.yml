@@ -7,8 +7,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Step 1
-      run: echo "New repo created"
-    - name: Step 2
+    - uses: actions/checkout@v2
+    - name: Install kaskadi-cli
       run: npm i kaskadi-cli
+    - name: Init
+      run: kaskadi init
+    - name: Commit files
+      run: |
+        git config --global user.name 'Holger Will'
+        git config --global user.email 'h.will@klimapartner.de'
+        git commit -am "Initial commit"
+        git push
