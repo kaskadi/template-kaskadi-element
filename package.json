@@ -1,8 +1,8 @@
 {
-  "name": "elements-kaskadi-template",
+  "name": "template-kaskadi-element",
   "version": "1.0.0",
   "description": "",
-  "main": "kaskadi-template.js",
+  "main": "template-kaskadi-element.js",
   "directories": {
     "example": "example",
     "test": "test"
@@ -15,25 +15,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaskadi/elements-kaskadi-template.git"
+    "url": "git+https://github.com/kaskadi/template-kaskadi-element.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaskadi/elements-kaskadi-template/issues"
+    "url": "https://github.com/kaskadi/template-kaskadi-element/issues"
   },
-  "homepage": "https://github.com/kaskadi/elements-kaskadi-template#readme",
+  "homepage": "https://github.com/kaskadi/template-kaskadi-element#readme",
   "kaskadi": {
     "s3-push": {
       "files": [
         {
-          "src": "kaskadi-template.js",
-          "dest": "modules/@kaskadi/kaskadi-template/{branch}kaskadi-template.js"
+          "src": "template-kaskadi-element.js",
+          "dest": "modules/@kaskadi/template-kaskadi-element/{branch}template-kaskadi-element.js"
         },
         {
           "src": "example/index.html",
-          "dest": "modules/@kaskadi/kaskadi-template/{branch}example/index.html"
+          "dest": "modules/@kaskadi/template-kaskadi-element/{branch}example/index.html"
         }
       ]
     }
