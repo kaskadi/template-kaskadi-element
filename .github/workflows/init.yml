@@ -12,13 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-<<<<<<< HEAD
     - name: Step 1
       run: echo "New repo created"
     - name: Step 2
-      run: npm i
-=======
-    - name: Run a one-line script
-    - run: echo "New repo created"
-    - run: npm i -g kaskadi-cli
->>>>>>> fb8609e177a72e047a11eada405440533d702148
+      run: npm i -g kaskadi-cli
