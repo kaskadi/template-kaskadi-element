@@ -1,5 +1,8 @@
-![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/testing?label=tests)
+![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/testing?label=build)
 ![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/publish?label=pub)
+![](https://img.shields.io/codeclimate/maintainability/kaskadi/template-kaskadi-element)
+![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-element)
+![](https://img.shields.io/codeclimate/coverage/kaskadi/template-kaskadi-element)
 
 # Creating a new Element
 
