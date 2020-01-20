@@ -16,10 +16,6 @@ class KaskadiTemplate extends LitElement {
     `
   }
 
-  test () {
-    console.log('test')
-  }
-
   static get properties () {
     return {
       name: { type: String }
