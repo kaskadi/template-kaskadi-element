@@ -1,11 +1,14 @@
 name: testing
 on: [push]
 jobs:
-  build:
+  coverage:
+    name: coverage
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: run test suite
-      run: |
-        npm i
-        npm test
+    - uses: actions/checkout@master
+    - run: npm i
+    - uses: paambaati/codeclimate-action@v2.2.4
+      env:
+        CC_TEST_REPORTER_ID: 7b14f1f9497bb8e48bbd7efbe19c985f33ddc452ac0a5931699136a43494c6ee
+      with:
+        coverageCommand: npm test
