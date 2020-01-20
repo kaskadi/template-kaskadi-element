@@ -5,6 +5,7 @@ class KaskadiTemplate extends LitElement {
   constructor () {
     super()
     this.name = 'World'
+    this.lang = 'en'
   }
 
   static get styles () {
@@ -18,7 +19,8 @@ class KaskadiTemplate extends LitElement {
 
   static get properties () {
     return {
-      name: { type: String }
+      name: { type: String },
+      lang: { type: String }
     }
   }
 

@@ -1,5 +1,8 @@
 name: testing
-on: [push]
+on:
+  push:
+    paths:
+      - '**.js'
 jobs:
   coverage:
     name: coverage
