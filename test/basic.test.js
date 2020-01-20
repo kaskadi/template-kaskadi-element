@@ -11,7 +11,5 @@ describe('kaskadi-template', () => {
     elem.shadowRoot.querySelector('div').textContent.should.equal('Hello World!')
     var cs = getComputedStyle(elem.shadowRoot.querySelector('div'))
     cs.color.should.equal('rgb(255, 0, 0)')
-    const x = 1
-    x.should.equal(2)
   })
 })
