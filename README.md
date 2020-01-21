@@ -1,13 +1,16 @@
-**GitHub Actions workflows status:**
+**GitHub Actions workflows status**
+
 ![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/testing?label=test)
 ![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/publish?label=publish)
 
-**CodeClimate:**
+**CodeClimate**
+
 ![](https://img.shields.io/codeclimate/maintainability/kaskadi/template-kaskadi-element)
 ![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-element)
 ![](https://img.shields.io/codeclimate/coverage/kaskadi/template-kaskadi-element)
 
-**LGTM:**
+**LGTM**
+
 [![](https://img.shields.io/lgtm/grade/javascript/github/kaskadi/template-kaskadi-element)](https://lgtm.com/projects/g/kaskadi/template-kaskadi-element/?mode=list)
 
 ****
