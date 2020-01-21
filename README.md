@@ -1,7 +1,9 @@
 **GitHub Actions workflows status**
 
-![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/testing?label=test)
-![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/publish?label=publish)
+<!--Uncomment if you're in a branch which is not master or release/*
+![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/testing?label=test)-->
+<!-- This badge should only be used for master and release/* branches. Otherwise use the one above -->
+![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/publish?label=build)
 
 **CodeClimate**
 
@@ -20,7 +22,10 @@
 **Checklist (delete items when done)**
 - create a new repository and choose this as the template
 - clone the new repository to a local working copy
-- set up secrets ([help](#set-secrets-up))
+- set up secrets ([help](#Set-secrets-up))
+- add the new repository to:
+  - _CodeClimate_ ([help](#Add-the-element-repository-on-CodeClimate))
+  - _LGTM_ ([help](#Add-the-element-repository-on-LGTM))
 - install all dependencies via `npm i`
 
 **Attention:** if you wish to use kaskadi's CLI tools, make sure to have `kaskadi-cli` installed globally (`npm i -g kaskadi-cli`)
