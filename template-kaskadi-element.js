@@ -19,6 +19,7 @@ class TemplateKaskadiElement extends LitElement {
       :host{
         display: inline-block;
       }
+      div{color: red}
     `
   }
 
