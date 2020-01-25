@@ -1,7 +1,7 @@
 module.exports = config => {
   config.set({
     frameworks: ['mocha', 'chai'],
-    files: [{ pattern: 'test/**/*.test.js', type: 'module' }, { pattern: '*.js', included: false, type: 'module' }],
+    files: [{ pattern: 'test/**/*.test.js', type: 'module' }, { pattern: '**/*.js', included: false, type: 'module' }],
     preprocessors: { '*.js': 'coverage' },
     coverageReporter: {
       dir: 'coverage',
@@ -13,7 +13,7 @@ module.exports = config => {
     reporters: ['progress', 'coverage'],
     port: 9876, // karma web server port
     colors: true,
-    browsers: ['ChromeHeadless'],
+    browsers: ['ChromeHeadless', 'FirefoxHeadless'],
     autoWatch: false,
     esm: {
       nodeResolve: true
