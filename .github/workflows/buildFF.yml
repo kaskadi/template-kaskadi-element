@@ -1,0 +1,18 @@
+name: publish
+on:
+  push:
+    branches:
+      - 'master'
+      - 'release/**'
+    paths:
+      - '**.js'
+      - 'example/index.html'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: test firefox
+      run: |
+        npm i
+        npm run test.FF
