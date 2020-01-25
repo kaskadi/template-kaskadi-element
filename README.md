@@ -7,15 +7,12 @@
 ![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/testing?label=test)-->
 <!-- This badge should only be used for master and release/* branches. Otherwise use the one above -->
 ![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/build-on-firefox?label=firefox&logo=Mozilla%20Firefox&logoColor=white)
-
 ![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/build-on-chrome?label=chrome&logo=Google%20Chrome&logoColor=white)
 
 **CodeClimate**
 
 ![](https://img.shields.io/codeclimate/maintainability/kaskadi/template-kaskadi-element)
-
-![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-element)
-
+![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-element)s
 ![](https://img.shields.io/codeclimate/coverage/kaskadi/template-kaskadi-element)
 
 **LGTM**
