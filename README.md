@@ -12,7 +12,7 @@
 **CodeClimate**
 
 ![](https://img.shields.io/codeclimate/maintainability/kaskadi/template-kaskadi-element)
-![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-element)s
+![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-element)
 ![](https://img.shields.io/codeclimate/coverage/kaskadi/template-kaskadi-element)
 
 **LGTM**
