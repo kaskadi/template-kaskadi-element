@@ -8,7 +8,7 @@ describe('template-kaskadi-element', () => {
     // wait until it's finished rendering
     await elem.updateComplete
     // actual test
-    elem.shadowRoot.querySelector('div').textContent.should.equal('Hello World!')
+    elem.shadowRoot.querySelector('#en').textContent.should.equal('Hello World!')
     var cs = getComputedStyle(elem.shadowRoot.querySelector('div'))
     cs.color.should.equal('rgb(255, 0, 0)')
   })
