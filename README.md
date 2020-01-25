@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/code--style-standard-blue)
+![](https://img.shields.io/github/license/kaskadi/template-kaskadi-element?color=green)
 
 **GitHub Actions workflows status**
 
