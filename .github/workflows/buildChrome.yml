@@ -1,4 +1,4 @@
-name: build on chrome
+name: build-on-chrome
 on:
   push:
     paths:
