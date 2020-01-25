@@ -7,6 +7,7 @@ on:
     paths:
       - '**.js'
       - 'example/index.html'
+      - 'package.json'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,7 +19,7 @@ jobs:
       env:
         CC_TEST_REPORTER_ID: ${{ secrets.REPORTER_ID }}
       with:
-        coverageCommand: npm test
+        coverageCommand: npm coverage
     - name: Upload files to S3 bucket
       uses: kaskadi/action-s3cp@master
       env:
