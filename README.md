@@ -3,17 +3,18 @@
 <!--Uncomment if you're in a branch which is not master or release/*
 ![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/testing?label=test)-->
 <!-- This badge should only be used for master and release/* branches. Otherwise use the one above -->
-![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/publish?label=build)
+![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/build-on-firefox?label=firefox&logo=Mozilla%20Firefox&logoColor=white&style=flat-square)
+![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-element/build-on-chrome?label=chrome&logo=Google%20Chromex&logoColor=white&style=flat-square)
 
 **CodeClimate**
 
-![](https://img.shields.io/codeclimate/maintainability/kaskadi/template-kaskadi-element)
-![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-element)
-![](https://img.shields.io/codeclimate/coverage/kaskadi/template-kaskadi-element)
+![](https://img.shields.io/codeclimate/maintainability/kaskadi/template-kaskadi-element?style=flat-square)
+![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-element?style=flat-square)
+![](https://img.shields.io/codeclimate/coverage/kaskadi/template-kaskadi-element?style=flat-square)
 
 **LGTM**
 
-[![](https://img.shields.io/lgtm/grade/javascript/github/kaskadi/template-kaskadi-element)](https://lgtm.com/projects/g/kaskadi/template-kaskadi-element/?mode=list)
+[![](https://img.shields.io/lgtm/grade/javascript/github/kaskadi/template-kaskadi-element?style=flat-square)](https://lgtm.com/projects/g/kaskadi/template-kaskadi-element/?mode=list)
 
 ****
 
