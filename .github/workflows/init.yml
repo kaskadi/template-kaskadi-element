@@ -11,7 +11,9 @@ jobs:
     - name: Install kaskadi-cli
       run: npm i kaskadi-cli
     - name: Init
-      run: ./node_modules/kaskadi-cli/kaskadi init
+      run: | 
+        ./node_modules/kaskadi-cli/kaskadi init
+        npm rm kaskadi-cli
     - name: Commit files
       run: |
         git config --global user.name 'Holger Will'
