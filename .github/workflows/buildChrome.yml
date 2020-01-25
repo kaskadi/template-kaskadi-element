@@ -1,4 +1,4 @@
-name: publish
+name: build on chrome
 on:
   push:
     paths:
