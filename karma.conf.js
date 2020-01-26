@@ -13,7 +13,7 @@ module.exports = config => {
     reporters: ['progress', 'coverage'],
     port: 9876, // karma web server port
     colors: true,
-    browsers: ['ChromeHeadless', 'FirefoxHeadless'],
+    browsers: ['ChromeHeadless', 'FirefoxHeadless', 'EdgeHeadless'],
     autoWatch: false,
     esm: {
       nodeResolve: true
