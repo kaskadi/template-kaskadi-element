@@ -12,7 +12,7 @@
     "test": "npm run lint && npm run test.All",
     "test.FF": "karma start --single-run --browsers FirefoxHeadless karma.conf.js",
     "test.Chrome": "karma start --single-run --browsers ChromeHeadless karma.conf.js",
-    "test.Edge": "karma start --single-run --browsers EdgeHeadless karma.conf.js",
+    "test.Edge": "karma start --single-run --browsers Edge karma.conf.js",
     "test.All": "karma start --single-run --browsers ChromeHeadless,FirefoxHeadless karma.conf.js",
     "lint": "standard --fix",
     "kaskadi-init": "kaskadi init && git add -u && git commit -m 'initialized from template'",
