@@ -1,8 +1,8 @@
 /* eslint-env browser, mocha */
-import { css, html, LitElement } from 'https://cdn.klimapartner.net/modules/lit-element/lit-element.js'
-import { lang, translate } from 'https://cdn.klimapartner.net/modules/@kaskadi/kaskadi-element/kaskadi-element.js'
+// import { css, html } from 'https://cdn.klimapartner.net/modules/lit-element/lit-element.js'
+import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapartner.net/modules/@kaskadi/kaskadi-element/kaskadi-element.js'
 
-class TemplateKaskadiElement extends LitElement {
+class TemplateKaskadiElement extends KaskadiElement {
   constructor () {
     super()
     const phrase = {
