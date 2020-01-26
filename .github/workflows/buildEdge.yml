@@ -1,4 +1,4 @@
-name: build-on-firefox
+name: build-on-edge
 on:
   push:
     paths:
