@@ -2,6 +2,8 @@
 ![](https://img.shields.io/badge/code--style-standard-blue)
 ![](https://img.shields.io/github/license/kaskadi/template-kaskadi-element?color=blue)
 
+[![](https://img.shields.io/badge/live-example-orange)](https://cdn.klimapartner.net/modules/%40kaskadi/template-kaskadi-element/example/index.html)
+
 **GitHub Actions workflows status**
 
 <!--Uncomment if you're in a branch which is not master or release/*
