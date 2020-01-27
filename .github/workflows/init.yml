@@ -4,14 +4,14 @@ on:
     branches:
       - master
 jobs:
-  build:
+  init:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Install kaskadi-cli
       run: npm i kaskadi-cli
     - name: Init
-      run: | 
+      run: |
         ./node_modules/kaskadi-cli/kaskadi init
         npm rm kaskadi-cli
     - name: Commit files
