@@ -1,5 +1,6 @@
 #!/bin/bash
 BRANCH_NAME="$(node -e "const refs = process.env.GITHUB_REF.split('/'); console.log(refs[refs.length - 1])")"
+echo "$BRANCH_NAME"
 if [ "$BRANCH_NAME" == "master" ]
 then
   # Install kaskadi-cli
