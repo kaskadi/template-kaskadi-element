@@ -44,7 +44,7 @@
         },
         {
           "src": ".github",
-          "dest": "modules/@kaskadi/template-kaskadi-element/{branch}.github/"
+          "dest": "modules/@kaskadi/template-kaskadi-element/{branch}.github"
         }
       ]
     }
