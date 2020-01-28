@@ -39,5 +39,3 @@ class TemplateKaskadiElement extends KaskadiElement {
   }
 }
 customElements.define('template-kaskadi-element', TemplateKaskadiElement)
-
-// test

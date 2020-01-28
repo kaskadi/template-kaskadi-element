@@ -41,6 +41,10 @@
         {
           "src": "example/index.html",
           "dest": "modules/@kaskadi/template-kaskadi-element/{branch}example/index.html"
+        },
+        {
+          "src": ".github",
+          "dest": "modules/@kaskadi/template-kaskadi-element/{branch}.github"
         }
       ]
     }
