@@ -8,12 +8,14 @@ then
   ./node_modules/.bin/kaskadi init
   npm rm kaskadi-cli
   # Commit files
-  git config --global user.name 'Holger Will'
-  git config --global user.email 'h.will@klimapartner.de'
+  USERNAME="$(git config user.name)"
+  EMAIL="$(git config user.email)"
+  git config --global user.name $USERNAME
+  git config --global user.email $EMAIL
   git add *.js
   git rm .github/workflows/init.yml
   git rm .github/workflows/scripts/init.sh
-  git commit -am "Initial commit"
+  git commit -am "Initialized repository with correct naming."
   git push
 else
   echo "Branch is not master, not proceeding to initialize repository."
