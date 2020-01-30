@@ -32,7 +32,7 @@
 
 When creating a new repository based off of `template-kaskadi-element`, a _GitHub Actions_ called `init` should normally run and rename all references to `template-kaskadi-element` in files to the name of your repository.
 
-It is known that this action sometimes does not run...
+It is known that this action sometimes does not run... (see [here](https://github.com/kaskadi/template-kaskadi-element/issues/17))
 
 **Please report any cases where this happens and detail the steps that led to it.**
 

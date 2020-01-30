@@ -8,8 +8,7 @@ then
   ./node_modules/.bin/kaskadi init
   npm rm kaskadi-cli
   # Commit files
-  USERNAME="$(git config user.name)"
-  EMAIL="$(git config user.email)"
+  echo "$GITHUB_ACTOR	"
   git config --global user.name $USERNAME
   git config --global user.email $EMAIL
   git add *.js
