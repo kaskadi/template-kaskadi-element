@@ -9,8 +9,8 @@ then
   npm rm kaskadi-cli
   # Commit files
   echo "$GITHUB_ACTOR	"
-  git config --global user.name $USERNAME
-  git config --global user.email $EMAIL
+  git config --global user.name 'Alexis Lemaire'
+  git config --global user.email 'a.lemaire@klimapartner.de'
   git add *.js
   git rm .github/workflows/init.yml
   git rm .github/workflows/scripts/init.sh
