@@ -5,6 +5,7 @@ then
   # Install kaskadi-cli
   npm i kaskadi-cli
   # Init
+  echo "$CWD"
   ./node_modules/kaskadi-cli/kaskadi init
   npm rm kaskadi-cli
   # Commit files
