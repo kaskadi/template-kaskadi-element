@@ -49,7 +49,7 @@ It is known that this action sometimes does not run...
 
 **Attention:** if you wish to use kaskadi's CLI tools, make sure to have `kaskadi-cli` installed globally (`npm i -g kaskadi-cli`)
 
-## :question: Set secrets up :question:
+## Set secrets up
 
 Before pushing for the first time, please setup secrets on this repository.
 
@@ -65,7 +65,7 @@ Before pushing for the first time, please setup secrets on this repository.
 For `AWS_KEY_ID` & `AWS_KEY_SECRET` those are the credentials of the `kaskadi-public-push` user.
 For `REPORTER_ID`: this is the ID of the reporter associated with this repository on _CodeClimate_
 
-## :heavy_check_mark: Add the element repository on [_CodeClimate_](https://codeclimate.com) :heavy_check_mark:
+## Add the element repository on [_CodeClimate_](https://codeclimate.com)
 
 **Steps:**
 1. log into your dashboard on [_CodeClimate_](https://codeclimate.com/dashboard)
@@ -82,7 +82,7 @@ For `REPORTER_ID`: this is the ID of the reporter associated with this repositor
 3. click on `Test coverage` in the menu on the left side
 4. you can now copy the _TEST REPORTER ID_ and use it as secrets (`REPORTER_ID`) in your repository to setup automated test coverage reporting!
 
-## :heavy_check_mark: Add the element repository on [_LGTM_](https://lgtm.com) :heavy_check_mark:
+## Add the element repository on [_LGTM_](https://lgtm.com)
 
 1. log into your dashboard on [_LGTM_](https://lgtm.com/dashboard)
 2. review if the repository you would like to add is already tracked
