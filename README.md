@@ -36,6 +36,10 @@ It is known that this action sometimes does not run... (see [here](https://githu
 
 **Please report any cases where this happens and detail the steps that led to it.**
 
+**If this happens to you:**
+1. `npm i -g kaskadi-cli` (if not installed)
+2. `kaskadi init`
+
 # :computer: Creating a new Element :computer:
 
 **Checklist (delete items when done)**
