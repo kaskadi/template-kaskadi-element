@@ -8,9 +8,17 @@ then
   ./node_modules/.bin/kaskadi init
   npm rm kaskadi-cli
   # Commit files
-  echo "$GITHUB_ACTOR	"
-  git config --global user.name 'Alexis Lemaire'
-  git config --global user.email 'a.lemaire@klimapartner.de'
+  if [ "$GITHUB_ACTOR" == "alexlemaire" ]
+  then
+    USERNAME="Alexis Lemaire"
+    EMAIL="a.lemaire@klimapartner.de"
+  elif [ "$GITHUB_ACTOR" == "Holger-Will" ]
+  then
+    USERNAME="Holger Will"
+    EMAIL="h.will@klimapartner.de"
+  fi
+  git config --global user.name "$USERNAME"
+  git config --global user.email "$EMAIL"
   git add *.js
   git rm .github/workflows/init.yml
   git rm .github/workflows/scripts/init.sh
