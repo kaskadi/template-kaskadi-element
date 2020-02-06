@@ -42,7 +42,7 @@ It is known that this action sometimes does not run... (see [here](https://githu
 
 ****
 
-**This section can be deleted when done with all the preliminary work**
+❌ **This section can be deleted when done with all the preliminary work** ❌
 
 # :computer: Creating a new Element from this template :computer:
 
@@ -100,4 +100,4 @@ For `REPORTER_ID`: this is the ID of the reporter associated with this repositor
 
 ****
 
-**Your documentation here**
+:point_down: **Your documentation here** :point_down:
