@@ -40,12 +40,16 @@ It is known that this action sometimes does not run... (see [here](https://githu
 1. `npm i -g kaskadi-cli` (if not installed)
 2. `kaskadi init`
 
-# :computer: Creating a new Element :computer:
+****
 
-**Checklist (delete items when done)**
-- create a new repository and choose this as the template
+**This section can be deleted when done with all the preliminary work**
+
+# :computer: Creating a new Element from this template :computer:
+
+**Checklist:**
+- create a new repository and choose this repository (`template-kaskadi-element`) as template
 - clone the new repository to a local working copy
-- set up secrets ([help](#Set-secrets-up))
+- set secrets up ([help](#Set-secrets-up))
 - add the new repository to:
   - _CodeClimate_ ([help](#Add-the-element-repository-on-CodeClimate))
   - _LGTM_ ([help](#Add-the-element-repository-on-LGTM))
@@ -67,7 +71,7 @@ Before pushing for the first time, please setup secrets on this repository.
 - `REPORTER_ID`
 
 For `AWS_KEY_ID` & `AWS_KEY_SECRET` those are the credentials of the `kaskadi-public-push` user.
-For `REPORTER_ID`: this is the ID of the reporter associated with this repository on _CodeClimate_
+For `REPORTER_ID`: this is the ID of the reporter associated with this repository on _CodeClimate_.
 
 ## Add the element repository on [_CodeClimate_](https://codeclimate.com)
 
@@ -93,3 +97,7 @@ For `REPORTER_ID`: this is the ID of the reporter associated with this repositor
 3. **if the repo is not added automatically**: copy the URL of your repository root and paste it on your _LGTM_ dashboard in the `Follow a project from a repository host` field.
 
 **Note:** By following a repository, this should setup a watcher on your GitHub account/organization and automatically add any active repositories on your _LGTM_ dashboard. This is why your newly created repository may already be tracked on your _LGTM_ tracker.
+
+****
+
+**Your documentation here**
