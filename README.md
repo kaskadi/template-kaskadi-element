@@ -47,7 +47,7 @@ It is known that this action sometimes does not run... (see [here](https://githu
 # :computer: Creating a new Element from this template :computer:
 
 **Checklist:**
-- create a new repository and choose this repository (`template-kaskadi-element`) as template
+- create a new repository and choose this repository as template
 - clone the new repository to a local working copy
 - set secrets up ([help](#Set-secrets-up))
 - add the new repository to:
