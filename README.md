@@ -23,25 +23,6 @@
 
 [![](https://img.shields.io/lgtm/grade/javascript/github/kaskadi/template-kaskadi-element?label=code%20quality&logo=LGTM)](https://lgtm.com/projects/g/kaskadi/template-kaskadi-element/?mode=list&logo=LGTM)
 
-
-****
-
-# :warning: Known issues :warning:
-
-## New element initialization
-
-When creating a new repository based off of this template, a _GitHub Actions_ called `init` should normally run and rename all references of the template name in files to the name of your repository.
-
-It is known that this action sometimes does not run (see [here](https://github.com/kaskadi/template-kaskadi-element/issues/17)).
-
-**Suspected cause:** it seems that `init` is not running in cases where the user would try to manipulate the repository directly after creation. **To minimize risks of bug, please wait a minute or two after your repository creation to make sure that `init` runs.**
-
-**Please report any cases where this happens and detail the steps that led to it.**
-
-**If this happens to you:**
-1. `npm i -g kaskadi-cli` (if not installed)
-2. `kaskadi init element`
-
 ****
 
 ❌ **This section can be deleted when done with all the preliminary work** ❌
