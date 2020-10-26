@@ -57,7 +57,7 @@ In another element:
 ```js
 // using the latest version
 import 'https://cdn.klimapartner.net/modules/@kaskadi/template-kaskadi-element/template-kaskadi-element.js'
-// using a specific version (here v1)
+// using a specific version
 import 'https://cdn.klimapartner.net/modules/@kaskadi/template-kaskadi-element/release/v1.0.0/template-kaskadi-element.js'
 ```
 
@@ -65,7 +65,7 @@ In the browser:
 ```html
 <!-- using the latest version -->
 <script type="module" src="https://cdn.klimapartner.net/modules/@kaskadi/template-kaskadi-element/template-kaskadi-element.js"></script>
-<!-- using the latest version -->
+<!-- using a specific version -->
 <script type="module" src="https://cdn.klimapartner.net/modules/@kaskadi/template-kaskadi-element/release/v1.0.0/template-kaskadi-element.js"></script>
 ```
 
