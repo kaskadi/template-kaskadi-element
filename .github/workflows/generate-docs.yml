@@ -6,8 +6,8 @@ on:
       - 'release/**'
     paths:
       - '**.js'
-      - 'example/index.html'
       - 'package.json'
+      - 'docs/**'
 jobs:
   generate-docs:
     runs-on: ubuntu-latest
