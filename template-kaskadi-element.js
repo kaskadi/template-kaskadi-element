@@ -2,6 +2,21 @@
 // import { css, html } from 'https://cdn.klimapartner.net/modules/lit-element/lit-element.js'
 import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapartner.net/modules/@kaskadi/kaskadi-element/kaskadi-element.js'
 
+/**
+ * Template element for the Kaskadi application.
+ *
+ * This is intended to be used as base for building other `lit-element` components from it.
+ *
+ * @module template-kaskadi-element
+ *
+ * @param {object} phrase - set of localized phrases that can be used for localization via our `translate` and `lang` module
+ * @param {string} lang - element's language
+ *
+ * @example
+ *
+ * <template-kaskadi-element phrase="${JSON.stringify({ en: 'Hello', de: 'Hallo', fr: 'Bonjour' })}" lang="en"></template-kaskadi-element>
+ */
+
 class TemplateKaskadiElement extends KaskadiElement {
   constructor () {
     super()
