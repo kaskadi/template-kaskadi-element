@@ -26,5 +26,5 @@ jobs:
     - name: Generate documentation
       uses: kaskadi/action-generate-docs@master
       with:
-        type: api
+        type: element
         template: docs/template.md
