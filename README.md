@@ -36,7 +36,7 @@ A `build` workflow (see [here](./.github/workflows/build.yml)) along with indivi
 
 # Documentation
 
-This repository comes with a `generate-docs` workflow that generates documentation automatically for you using [`JSDOC`](https://jsdoc.app/). It'll check the element's file (found in the `main` field of `package.json`) for `JSDOC`-like comments in order to build its documentation. See [here](https://github.com/kaskadi/action-generate-docs) and [there](./serverless.yml) for more information.
+This repository comes with a `generate-docs` workflow that generates documentation automatically for you using [`JSDOC`](https://jsdoc.app/). It'll check the element's file (found in the `main` field of `package.json`) for `JSDOC`-like comments in order to build its documentation. It also checks for any CSS custom variables and lists them in the documentation. See [here](https://github.com/kaskadi/action-generate-docs) and [there](./serverless.yml) for more information.
 
 If you would like to see the workflow configuration, head [here](./.github/workflows/generate-docs.yml).
 
@@ -88,6 +88,10 @@ This is intended to be used as base for building other `lit-element` components 
 <template-kaskadi-element phrase="${JSON.stringify({ en: 'Hello', de: 'Hallo', fr: 'Bonjour' })}" lang="en"></template-kaskadi-element>
 ```
 <!-- LINKS -->
+
+## Custom styles
+
+No custom CSS properties found in this element...
 <!-- automatically generated documentation will be placed in here -->
 
 <!-- You can customize this template as you'd like! -->
