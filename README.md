@@ -91,7 +91,7 @@ This is intended to be used as base for building other `lit-element` components 
 
 ## Custom styles
 
-No custom CSS properties found in this element...
+No custom CSS properties found in this element.
 <!-- automatically generated documentation will be placed in here -->
 
 <!-- You can customize this template as you'd like! -->
