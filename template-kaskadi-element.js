@@ -1,5 +1,4 @@
 /* eslint-env browser, mocha */
-// import { css, html } from 'https://cdn.klimapartner.net/modules/lit-element/lit-element.js'
 import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapartner.net/modules/@kaskadi/kaskadi-element/kaskadi-element.js'
 
 /**
@@ -9,8 +8,7 @@ import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapar
  *
  * @module template-kaskadi-element
  *
- * @param {object} phrase - set of localized phrases that can be used for localization via our `translate` and `lang` module
- * @param {string} lang - element's language
+ * @param {string} [phrase={"en":"Hello World!","de":"Hallo Welt!","fr":"Bonjour monde !"}] - set of localized phrases that can be used for localization via our `translate` and `lang` module. This is a stringified object containing language as key (`en`, `de`, etc.) and the corresponding phrase as value.
  *
  * @example
  *
@@ -20,13 +18,11 @@ import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapar
 class TemplateKaskadiElement extends KaskadiElement {
   constructor () {
     super()
-    const phrase = {
+    this.phrase = {
       en: 'Hello World!',
       de: 'Hallo Welt!',
-      fr: 'bonjour monde!'
+      fr: 'Bonjour monde !'
     }
-    this.phrase = lang`${phrase}`
-    this.lang = 'en'
   }
 
   static get styles () {
@@ -40,17 +36,18 @@ class TemplateKaskadiElement extends KaskadiElement {
 
   static get properties () {
     return {
-      phrase: { type: String },
-      lang: { type: String }
+      phrase: { type: String }
     }
   }
 
   render () {
+    const phrase = lang`${this.phrase}`
     return html`
-      <div id="en">${translate(this.phrase, 'en')}</div>
-      <div id="de">${translate(this.phrase, 'de')}</div>
-      <div id="fr">${translate(this.phrase, 'fr')}</div>
+      <div id="en">${translate(phrase, 'en')}</div>
+      <div id="de">${translate(phrase, 'de')}</div>
+      <div id="fr">${translate(phrase, 'fr')}</div>
     `
   }
 }
+
 customElements.define('template-kaskadi-element', TemplateKaskadiElement)
