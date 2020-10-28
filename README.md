@@ -78,10 +78,9 @@ Template element for the Kaskadi application.
 This is intended to be used as base for building other `lit-element` components from it.
 
 
-| Param | Type | Description |
-| --- | --- | --- |
-| phrase | `object` | set of localized phrases that can be used for localization via our `translate` and `lang` module |
-| lang | `string` | element's language |
+| Param | Type | Default | Description |
+| --- | --- | --- | --- |
+| \[phrase\] | `string` | `'{&quot;en&quot;:&quot;Hello World!&quot;,&quot;de&quot;:&quot;Hallo Welt!&quot;,&quot;fr&quot;:&quot;Bonjour monde !&quot;}'` | set of localized phrases that can be used for localization via our `translate` and `lang` module. This is a stringified object containing language as key (`en`, `de`, etc.) and the corresponding phrase as value. |
 
 **Example**  
 ```html
