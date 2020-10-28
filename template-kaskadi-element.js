@@ -8,7 +8,7 @@ import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapar
  *
  * @module template-kaskadi-element
  *
- * @param {string} [phrase={"en":"Hello World!","de":"Hallo Welt!","fr":"Bonjour monde !"}] - set of localized phrases that can be used for localization via our `translate` and `lang` module. This is a stringified object containing language as key (`en`, `de`, etc.) and the corresponding phrase as value.
+ * @param {string} [phrase={&quot;en&quot;:&quot;Hello World!&quot;,&quot;de&quot;:&quot;Hallo Welt!&quot;,&quot;fr&quot;:&quot;Bonjour monde !&quot;}] - set of localized phrases that can be used for localization via our `translate` and `lang` module. This is a stringified object containing language as key (`en`, `de`, etc.) and the corresponding phrase as value.
  *
  * @example
  *
