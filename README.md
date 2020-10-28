@@ -77,6 +77,8 @@ Template element for the Kaskadi application.
 
 This is intended to be used as base for building other `lit-element` components from it.
 
+This element inherits properties from a base class `KaskadiElement`. To see which properties are available, please refer to [`KaskadiElement` documentation].
+
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -87,6 +89,8 @@ This is intended to be used as base for building other `lit-element` components 
 <template-kaskadi-element phrase="${JSON.stringify({ en: 'Hello', de: 'Hallo', fr: 'Bonjour' })}"></template-kaskadi-element>
 ```
 <!-- LINKS -->
+
+[`KaskadiElement` documentation]:https://github.com/kaskadi/kaskadi-element
 
 ## Custom styles
 
