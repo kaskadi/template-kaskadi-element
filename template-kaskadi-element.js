@@ -6,6 +6,8 @@ import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapar
  *
  * This is intended to be used as base for building other `lit-element` components from it.
  *
+ * This element inherits properties from a base class `KaskadiElement`. To see which properties are available, please refer to [`KaskadiElement` documentation](https://github.com/kaskadi/kaskadi-element).
+ *
  * @module template-kaskadi-element
  *
  * @param {string} [phrase] - set of localized phrases that can be used for localization via our `translate` and `lang` module. This is a stringified object containing language as key (`en`, `de`, etc.) and the corresponding phrase as value.
