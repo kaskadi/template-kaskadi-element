@@ -84,7 +84,7 @@ This is intended to be used as base for building other `lit-element` components 
 
 **Example**  
 ```html
-<template-kaskadi-element phrase="${JSON.stringify({ en: 'Hello', de: 'Hallo', fr: 'Bonjour' })}" lang="en"></template-kaskadi-element>
+<template-kaskadi-element phrase="${JSON.stringify({ en: 'Hello', de: 'Hallo', fr: 'Bonjour' })}"></template-kaskadi-element>
 ```
 <!-- LINKS -->
 
