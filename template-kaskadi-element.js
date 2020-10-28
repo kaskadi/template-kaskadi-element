@@ -12,7 +12,7 @@ import { lang, translate, KaskadiElement, css, html } from 'https://cdn.klimapar
  *
  * @example
  *
- * <template-kaskadi-element phrase="${JSON.stringify({ en: 'Hello', de: 'Hallo', fr: 'Bonjour' })}" lang="en"></template-kaskadi-element>
+ * <template-kaskadi-element phrase="${JSON.stringify({ en: 'Hello', de: 'Hallo', fr: 'Bonjour' })}"></template-kaskadi-element>
  */
 
 class TemplateKaskadiElement extends KaskadiElement {
@@ -36,7 +36,7 @@ class TemplateKaskadiElement extends KaskadiElement {
   }
 
   render () {
-    const phrase = lang`${JSON.parse(this.phrase)}`
+    const phrase = this.phrase.length > 0 ? lang`${JSON.parse(this.phrase)}` : ''
     return html`
       <div id="en">${translate(phrase, 'en')}</div>
       <div id="de">${translate(phrase, 'de')}</div>
