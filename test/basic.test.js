@@ -1,8 +1,9 @@
 /* eslint-env browser, mocha */
 import '../template-kaskadi-element.js'
 describe('template-kaskadi-element', () => {
-  var elem = document.createElement('template-kaskadi-element')
+  let elem
   before(async () => {
+    elem = document.createElement('template-kaskadi-element')
     document.body.appendChild(elem)
     await elem.updateComplete
   })
